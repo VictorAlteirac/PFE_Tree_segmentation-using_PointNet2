@@ -10,3 +10,5 @@ For this, the PointNet ++ network is used. The code is retrieved from user Yanx2
 To use the implemantation, you must have version 2.7 of Python or higher and pytorch version 1.7 on Windows 10. 
 In addition, the CUDA 10.2 Toolkit is used with the Cudnn version adapted to this version of CUDA.
 
+## Usage 
+### Segmentation 
