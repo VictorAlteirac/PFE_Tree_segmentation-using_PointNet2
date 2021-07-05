@@ -48,7 +48,7 @@ Training Performances:
 | 98.1 %| 0.068 | 95.1 % | 0.202 |
 
 Test performances 
-| ioU Leafy tree | IoU Ground  | IoU Building | IoU Other | IoU Light | IoU Car |IoU Trimmed tree | mIoU |
+| IoU Leafy tree | IoU Ground  | IoU Building | IoU Other | IoU Light | IoU Car |IoU Trimmed tree | mIoU |
 |---------|---------|---------|---------|---------|---------|---------|---------| 
 | 97.0 %| 94.8 % | 98.4% | 62.0% | 87.1 % | 62.8 % | 97.3 % | 85.1 % |
 
