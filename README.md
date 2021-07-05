@@ -12,7 +12,7 @@ In addition, the CUDA 10.2 Toolkit is used with the Cudnn version adapted to thi
 
 ## Model and modifications
 The model used is PointNet ++ in MSG mode. With the following levels of abstractions: 
-| Level | Points | Radius | Point per radius | MLP radius 1 | MLP Radius 2 |
+| Level | Points | Radius (1-2) | Points per radius | MLP radius 1 | MLP Radius 2 |
 |--|--|--|--|--|--| 
 | 1 |  1024 | 0.3 - 2 | 32 - 64 | 16 - 16 -32 | 32 - 32 - 64|
 | 2 |  512 | 1 - 3 | 32 - 64 | 64 - 64 128 | 64 - 96 - 128|
