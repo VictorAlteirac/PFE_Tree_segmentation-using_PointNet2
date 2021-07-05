@@ -42,9 +42,9 @@ The additional features can be any of them.
 In this case, in order, Roughness, radius of curvature, colours (RGB) and normals. 
 
 ## Performances
-
-
-test perofmances : 
+Trinaing Performances: 
+| Training Acc | Training Loss | Validation Acc. | Validation Loss |
+|---------|---------|---------|---------| 
 
 ### visual results
 ![Format](https://github.com/VictorAlteirac/PFE_Tree_segmentation-using_PointNet2/blob/main/Image/Image2.png)
