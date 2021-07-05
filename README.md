@@ -43,7 +43,7 @@ In this case, in order, Roughness, radius of curvature, colours (RGB) and normal
 
 ## Results on databases
 ### DublinCity 3D
-Les performances suivantes sont atteintes : 
+Training performances :
 | Perf | Accuracy |
 |--|--|
 | Training Accuracy |  92.5 %|
@@ -56,3 +56,6 @@ Les performances suivantes sont atteintes :
 | IoU Other | 20.0 %|
 | mIoU |  **63.6 %**|
 
+test perofmances : 
+
+### Test on our dataset 
