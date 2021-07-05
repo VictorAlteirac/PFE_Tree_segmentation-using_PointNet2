@@ -23,3 +23,8 @@ The form of the training, validation and test data should be as follows:
     - The Indiv folder contains the point clouds to be segmented using a trained model. 
 
 ![prediction example](https://github.com/VictorAlteirac/PFE_Tree_segmentation-using_PointNet2/blob/main/Image/Data.PNG)
+
+The point cloud files in each of these folders should be with particulary form. 
+- In .txt format with the following organisation
+
+
