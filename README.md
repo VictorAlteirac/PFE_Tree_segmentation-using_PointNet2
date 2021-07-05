@@ -17,3 +17,4 @@ To train a PointNet ++ model to segment :
     Train-test_sem-seg.py
   
  
+![prediction example](https://github.com/charlesq34/pointnet2/blob/master/doc/teaser.jpg)
