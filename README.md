@@ -47,5 +47,5 @@ Trinaing Performances:
 |---------|---------|---------|---------| 
 | 98.1 %| 0.068 | 95.1 % | 0.202 |
 
-### visual results
+### Visuals results
 ![Format](https://github.com/VictorAlteirac/PFE_Tree_segmentation-using_PointNet2/blob/main/Image/Image2.png)
