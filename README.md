@@ -14,6 +14,6 @@ In addition, the CUDA 10.2 Toolkit is used with the Cudnn version adapted to thi
 ### Segmentation 
 To train a PointNet ++ model to segment : 
 
-  python train.py
+    Train-test_sem-seg.py
   
  
