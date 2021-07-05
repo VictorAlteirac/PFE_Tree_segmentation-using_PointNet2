@@ -45,6 +45,7 @@ In this case, in order, Roughness, radius of curvature, colours (RGB) and normal
 Trinaing Performances: 
 | Training Acc | Training Loss | Validation Acc. | Validation Loss |
 |---------|---------|---------|---------| 
+| 98.1 %| 0.068 | 95.1 % | 0.202 |
 
 ### visual results
 ![Format](https://github.com/VictorAlteirac/PFE_Tree_segmentation-using_PointNet2/blob/main/Image/Image2.png)
