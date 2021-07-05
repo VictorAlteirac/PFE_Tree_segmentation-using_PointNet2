@@ -42,19 +42,7 @@ The additional features can be any of them.
 In this case, in order, Roughness, radius of curvature, colours (RGB) and normals. 
 
 ## Results on databases
-### DublinCity 3D
-Training performances :
-| Perf | Accuracy |
-|--|--|
-| Training Accuracy |  92.5 %|
-| Training Loss) | 0.255 |
-| Eval Accuracy |  81.4 %|
-| Eval Loss |  0.602|
-| IoU Bati |  50.4 %|
-| IoU Ground |  83.8 %|
-| IoU Vegetation |  77.0 %|
-| IoU Other | 20.0 %|
-| mIoU |  **63.6 %**|
+
 
 test perofmances : 
 
