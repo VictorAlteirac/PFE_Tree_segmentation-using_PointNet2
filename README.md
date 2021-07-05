@@ -19,7 +19,7 @@ To train a PointNet ++ model to segment :
 The form of the training, validation and test data should be as follows:
 - Three folders are created in the data directory at the root
     - The training folder contains the data that will be used to train the network 
-    - The test file contains the validation data that allows the live training to be validated 
+    - The test folder contains the validation data that allows the live training to be validated 
     - The Indiv folder contains the point clouds to be segmented using a trained model. 
 
 ![Dossier](https://github.com/VictorAlteirac/PFE_Tree_segmentation-using_PointNet2/blob/main/Image/Data.PNG)
