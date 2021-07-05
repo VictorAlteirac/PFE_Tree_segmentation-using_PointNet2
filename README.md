@@ -52,6 +52,9 @@ To train a PointNet ++ model to segment :
 - To start train, you hae to run the script below with changing argument according of your computeur and your data
    - Batch size, dimensions, epoch, etc...
 - After processing, the journal of training is saved ```log/sem_seg/yyyy-mm-dd_hh_mm/logs```
+- The model is saved in ```log/sem_seg/yyyy-mm-dd_hh_mm/checkpoints/best_model.pth``` this model can be reused for other segmentation 
+
+To segment any point clous with any model you can lunch the script 
 ## Performances
 Training Performances: 
 | Training Acc | Training Loss | Validation Acc. | Validation Loss |
