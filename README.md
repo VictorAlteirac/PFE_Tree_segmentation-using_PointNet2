@@ -47,4 +47,4 @@ In this case, in order, Roughness, radius of curvature, colours (RGB) and normal
 test perofmances : 
 
 ### visual results
-![Format](https://github.com/VictorAlteirac/PFE_Tree_segmentation-using_PointNet2/blob/main/Image/image.PNG)
+![Format](https://github.com/VictorAlteirac/PFE_Tree_segmentation-using_PointNet2/blob/main/Image/Image2.png)
