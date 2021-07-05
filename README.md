@@ -10,6 +10,8 @@ For this, the PointNet ++ network is used. The code is retrieved from user Yanx2
 To use the implemantation, you must have version 2.7 of Python or higher and pytorch version 1.7 on Windows 10. 
 In addition, the CUDA 10.2 Toolkit is used with the Cudnn version adapted to this version of CUDA.
 
+## Model and modifications
+
 ## Usage 
 ### Segmentation 
 To train a PointNet ++ model to segment : 
@@ -31,3 +33,19 @@ The point cloud files in each of these folders should be with particulary form.
 
 The additional features can be any of them. 
 In this case, in order, Roughness, radius of curvature, colours (RGB) and normals. 
+
+## Results on databases
+### DublinCity 3D
+Les performances suivantes sont atteintes : 
+| Model | Accuracy |
+|--|--|
+| Training Accuracy |  92.5|
+| Training Loss) | 0.255 |
+| Eval Accuracy |  81.4|
+| Eval Loss |  0.602|
+| IoU Bati |  50.4|
+| IoU Ground |  83.8|
+| IoU Vegetation |  77.0|
+| IoU Other | 20.0|
+| mIoU |  **63.6**|
+
