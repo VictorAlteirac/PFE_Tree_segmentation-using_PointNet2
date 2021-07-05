@@ -54,7 +54,9 @@ To train a PointNet ++ model to segment :
 - After processing, the journal of training is saved ```log/sem_seg/yyyy-mm-dd_hh_mm/logs```
 - The model is saved in ```log/sem_seg/yyyy-mm-dd_hh_mm/checkpoints/best_model.pth``` this model can be reused for other segmentation 
 
-To segment any point clous with any model you can lunch the script 
+To segment any point clous with any model you can lunch the script ```Indiv PointsCloud.py```. 
+You just have to change the model to use and the directory with the point cloud. 
+
 ## Performances
 Training Performances: 
 | Training Acc | Training Loss | Validation Acc. | Validation Loss |
