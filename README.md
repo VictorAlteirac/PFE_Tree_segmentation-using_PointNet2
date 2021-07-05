@@ -41,9 +41,10 @@ The point cloud files in each of these folders should be with particulary form.
 The additional features can be any of them. 
 In this case, in order, Roughness, radius of curvature, colours (RGB) and normals. 
 
-## Results on databases
+## Performances
 
 
 test perofmances : 
 
-### Test on our dataset 
+### visual results
+![Format](https://github.com/VictorAlteirac/PFE_Tree_segmentation-using_PointNet2/blob/main/Image/image.PNG)
