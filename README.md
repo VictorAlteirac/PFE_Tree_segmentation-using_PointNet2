@@ -42,6 +42,8 @@ The point cloud files in each of these folders should be with particulary form.
 
 ![Format](https://github.com/VictorAlteirac/PFE_Tree_segmentation-using_PointNet2/blob/main/Image/TXT.PNG)
 
+The dataloader is generalisable and works with any type of data as long as the format is respected 
+
 The additional features can be any of them. 
 In this case, in order, Roughness, radius of curvature, colours (RGB) and normals. 
 
