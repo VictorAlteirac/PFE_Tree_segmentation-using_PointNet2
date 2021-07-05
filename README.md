@@ -16,5 +16,7 @@ To train a PointNet ++ model to segment :
 
     Train-test_sem-seg.py
   
- 
+The form of the training, validation and test data should be as follows:
+- Three folders are created in the data directory at the root
+
 ![prediction example](https://github.com/charlesq34/pointnet2/blob/master/doc/teaser.jpg)
