@@ -19,4 +19,4 @@ To train a PointNet ++ model to segment :
 The form of the training, validation and test data should be as follows:
 - Three folders are created in the data directory at the root
 
-![prediction example](https://github.com/charlesq34/pointnet2/blob/master/doc/teaser.jpg)
+![prediction example](https://github.com/VictorAlteirac/PFE_Tree_segmentation-using_PointNet2/blob/main/Image/Data.PNG)
