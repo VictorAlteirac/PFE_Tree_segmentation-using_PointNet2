@@ -24,11 +24,8 @@ The model used is PointNet ++ in MSG mode. With the following levels of abstract
 | 4 |  128 | 4 -7  | 32 - 64 | 256 - 256 - 512 | 256 - 384 -512|
 
 ## Usage 
-### Segmentation 
-To train a PointNet ++ model to segment : 
-
-    Train-test_sem-seg.py
-  
+### Data preparation
+ 
 The form of the training, validation and test data should be as follows:
 - Three folders are created in the data directory at the root
     - The training folder contains the data that will be used to train the network 
@@ -47,6 +44,14 @@ The dataloader is generalisable and works with any type of data as long as the f
 The additional features can be any of them. 
 In this case, in order, Roughness, radius of curvature, colours (RGB) and normals. 
 
+### Run and train
+To train a PointNet ++ model to segment : 
+
+    Train-test_sem-seg.py
+    
+- To start train, you hae to run the script below with changing argument according of your computeur and your data
+   - Batch size, dimensions, epoch, etc...
+- After processing, the journal of training is saved ```log/sem_seg/yyyy-mm-dd_hh_mm/logs```
 ## Performances
 Training Performances: 
 | Training Acc | Training Loss | Validation Acc. | Validation Loss |
