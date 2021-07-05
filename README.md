@@ -11,6 +11,13 @@ To use the implemantation, you must have version 2.7 of Python or higher and pyt
 In addition, the CUDA 10.2 Toolkit is used with the Cudnn version adapted to this version of CUDA.
 
 ## Model and modifications
+The model used is PointNet ++ in MSG mode. With the following levels of abstractions: 
+| Level | Points | Radius | Point per radius | MLP radius 1 | MLP Radius 2 |
+|--|--|--|--|--|--| 
+| 1 |  1024 | 0.3 - 2 | 32 - 64 | 16 - 16 -32 | 32 - 32 - 64|
+| 2 |  512 | 1 - 3 | 32 - 64 | 64 - 64 128 | 64 - 96 - 128|
+| 3 |  256 | 2 - 5 | 32 - 64 | 128 - 196 -256 | 128 - 196 - 256|
+| 4 |  128 | 4 -7  | 32 - 64 | 256 - 256 - 512 | 256 - 384 -512|
 
 ## Usage 
 ### Segmentation 
