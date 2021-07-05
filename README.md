@@ -7,8 +7,11 @@ The objective of this end of study project is to use a neural network for the au
 For this, the PointNet ++ network is used. The code is retrieved from user Yanx27.
 
 ## Installation  
-To use the implemantation, you must have version 2.7 of Python or higher and pytorch version 1.7 on Windows 10. 
-In addition, the CUDA 10.2 Toolkit is used with the Cudnn version adapted to this version of CUDA.
+The latest codes are tested on Window 10, CUDA 11.1, PyTorch 1.6 and Python 3.8.
+To run the codes, you also need some GPU devices. In our case, we used an NVidia RTX 2070 Super with 8go VRAM. In order, to use the GPU you need to install
+    - Nvidia Drivers
+    - CUDA Toolkit : (you can find the CUDA Toolkit Archive here. Be sure to check the CUDA Toolkit version that PyTorch currently supports. You can find that information on PyTorch's site).
+    - CUdnn Library (navigate again in NVIDIA's website. Choose to download the version of cuDNN that corresponds to the PyTorch-supported version of the CUDA Toolkit that you downloaded in the last step).
 
 ## Model and modifications
 The model used is PointNet ++ in MSG mode. With the following levels of abstractions: 
