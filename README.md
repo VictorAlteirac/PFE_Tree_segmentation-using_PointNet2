@@ -1,6 +1,7 @@
 # Tree segmentation using PointNet ++
 
-This final study project use the neural network PointNet ++ to segment automaticaly the trees on urban area.
+This final study project use the neural network PointNet ++ to segment automaticaly the trees on urban area. (Title : Detection and 3D reconstruction of urban trees by segmentation of point clouds: contribution of deep learning)
+![image](https://user-images.githubusercontent.com/79082220/129354647-7514d7ba-6e57-449b-ab15-a246ac8a3c37.png)
 
 ## Introduction 
 
