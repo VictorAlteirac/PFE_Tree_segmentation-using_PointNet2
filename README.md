@@ -3,7 +3,8 @@
 This final study project use the neural network PointNet ++ to segment automaticaly the trees on urban area.
 
 ## Introduction 
-The objective of this end of study project is to use a neural network for the automatic segmentation of urban trees.
+
+Many cities are seeking an eco responsible approach. For this, models are created to simulate urban temperatures.The objective of this end of study project is to use a neural network for the automatic segmentation of urban trees. This helps to help the creation of these models.
 For this, the PointNet ++ network is used. The code is retrieved from user Yanx27 url={https://github.com/yanx27/Pointnet_Pointnet2_pytorch}.
 
 ## Installation  
