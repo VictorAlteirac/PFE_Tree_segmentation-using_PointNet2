@@ -71,4 +71,6 @@ Test performances
 | 97.0 %| 94.8 % | 98.4% | 62.0% | 87.1 % | 62.8 % | 97.3 % | 85.1 % |
 
 ### Visuals results
+
+This visual results are given by segmentation of a inidividual point cloud using the script ```IndivPointCloud```
 ![Format](https://github.com/VictorAlteirac/PFE_Tree_segmentation-using_PointNet2/blob/main/Image/Image2.png)
