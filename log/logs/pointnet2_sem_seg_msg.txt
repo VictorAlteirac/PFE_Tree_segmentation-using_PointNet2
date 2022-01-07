@@ -1,0 +1,407 @@
+2021-06-25 09:01:57,130 - Model - INFO - PARAMETER ...
+2021-06-25 09:01:57,131 - Model - INFO - Namespace(Dimensions=11, batch_size=8, decay_rate=0.0001, données=5, epoch=18, gpu='0', learning_rate=0.001, log_dir=None, lr_decay=0.7, model='pointnet2_sem_seg_msg', npoint=4096, num_votes=1, optimizer='Adam', step_size=1, test_area=5)
+2021-06-25 09:03:26,542 - Model - INFO - The number of training data is: 989
+2021-06-25 09:03:26,543 - Model - INFO - The number of test data is: 540
+2021-06-25 09:03:26,596 - Model - INFO - No existing model, starting training from scratch...
+2021-06-25 09:03:26,600 - Model - INFO - **** Epoch 1 (1/18) ****
+2021-06-25 09:03:26,600 - Model - INFO - Learning rate:0.001000
+2021-06-25 09:09:18,661 - Model - INFO - Training mean loss: 0.661166
+2021-06-25 09:09:18,662 - Model - INFO - Training accuracy: 0.825734
+2021-06-25 09:09:18,662 - Model - INFO - Save model...
+2021-06-25 09:09:18,662 - Model - INFO - Saving at log\sem_seg\2021-06-25_09-01\checkpoints/model.pth
+2021-06-25 09:09:18,745 - Model - INFO - Saving model....
+2021-06-25 09:09:18,745 - Model - INFO - ---- EPOCH 001 EVALUATION ----
+2021-06-25 09:11:50,984 - Model - INFO - eval mean loss: 0.424026
+2021-06-25 09:11:50,984 - Model - INFO - eval point avg class IoU: 0.667965
+2021-06-25 09:11:50,984 - Model - INFO - eval point accuracy: 0.885394
+2021-06-25 09:11:50,985 - Model - INFO - eval point avg class acc: 0.862956
+2021-06-25 09:11:50,985 - Model - INFO - ------- IoU --------
+class Arbres Feuillu weight: 0.089, IoU: 0.913 
+class Sol            weight: 0.150, IoU: 0.824 
+class Batiment       weight: 0.387, IoU: 0.910 
+class Autre          weight: 0.262, IoU: 0.391 
+class Candélabre     weight: 0.091, IoU: 0.452 
+class Voiture        weight: 0.018, IoU: 0.322 
+class Arbre Taillé   weight: 0.003, IoU: 0.863 
+
+2021-06-25 09:11:50,986 - Model - INFO - Eval mean loss: 0.424026
+2021-06-25 09:11:50,986 - Model - INFO - Eval accuracy: 0.885394
+2021-06-25 09:11:50,986 - Model - INFO - Save model...
+2021-06-25 09:11:50,986 - Model - INFO - Saving at log\sem_seg\2021-06-25_09-01\checkpoints/best_model.pth
+2021-06-25 09:11:51,059 - Model - INFO - Saving model....
+2021-06-25 09:11:51,060 - Model - INFO - Best mIoU: 0.667965
+2021-06-25 09:11:51,060 - Model - INFO - **** Epoch 2 (2/18) ****
+2021-06-25 09:11:51,060 - Model - INFO - Learning rate:0.000700
+2021-06-25 09:17:45,790 - Model - INFO - Training mean loss: 0.233365
+2021-06-25 09:17:45,790 - Model - INFO - Training accuracy: 0.944039
+2021-06-25 09:17:45,790 - Model - INFO - ---- EPOCH 002 EVALUATION ----
+2021-06-25 09:20:18,559 - Model - INFO - eval mean loss: 0.368189
+2021-06-25 09:20:18,559 - Model - INFO - eval point avg class IoU: 0.724192
+2021-06-25 09:20:18,560 - Model - INFO - eval point accuracy: 0.912598
+2021-06-25 09:20:18,560 - Model - INFO - eval point avg class acc: 0.853060
+2021-06-25 09:20:18,560 - Model - INFO - ------- IoU --------
+class Arbres Feuillu weight: 0.096, IoU: 0.931 
+class Sol            weight: 0.138, IoU: 0.889 
+class Batiment       weight: 0.405, IoU: 0.915 
+class Autre          weight: 0.247, IoU: 0.485 
+class Candélabre     weight: 0.090, IoU: 0.630 
+class Voiture        weight: 0.020, IoU: 0.404 
+class Arbre Taillé   weight: 0.005, IoU: 0.817 
+
+2021-06-25 09:20:18,561 - Model - INFO - Eval mean loss: 0.368189
+2021-06-25 09:20:18,561 - Model - INFO - Eval accuracy: 0.912598
+2021-06-25 09:20:18,561 - Model - INFO - Save model...
+2021-06-25 09:20:18,561 - Model - INFO - Saving at log\sem_seg\2021-06-25_09-01\checkpoints/best_model.pth
+2021-06-25 09:20:18,622 - Model - INFO - Saving model....
+2021-06-25 09:20:18,622 - Model - INFO - Best mIoU: 0.724192
+2021-06-25 09:20:18,622 - Model - INFO - **** Epoch 3 (3/18) ****
+2021-06-25 09:20:18,622 - Model - INFO - Learning rate:0.000490
+2021-06-25 09:26:25,141 - Model - INFO - Training mean loss: 0.159672
+2021-06-25 09:26:25,142 - Model - INFO - Training accuracy: 0.963126
+2021-06-25 09:26:25,142 - Model - INFO - ---- EPOCH 003 EVALUATION ----
+2021-06-25 09:29:03,591 - Model - INFO - eval mean loss: 0.264651
+2021-06-25 09:29:03,591 - Model - INFO - eval point avg class IoU: 0.770281
+2021-06-25 09:29:03,591 - Model - INFO - eval point accuracy: 0.924789
+2021-06-25 09:29:03,591 - Model - INFO - eval point avg class acc: 0.888494
+2021-06-25 09:29:03,592 - Model - INFO - ------- IoU --------
+class Arbres Feuillu weight: 0.088, IoU: 0.973 
+class Sol            weight: 0.144, IoU: 0.879 
+class Batiment       weight: 0.404, IoU: 0.946 
+class Autre          weight: 0.247, IoU: 0.524 
+class Candélabre     weight: 0.096, IoU: 0.678 
+class Voiture        weight: 0.018, IoU: 0.468 
+class Arbre Taillé   weight: 0.004, IoU: 0.923 
+
+2021-06-25 09:29:03,592 - Model - INFO - Eval mean loss: 0.264651
+2021-06-25 09:29:03,592 - Model - INFO - Eval accuracy: 0.924789
+2021-06-25 09:29:03,592 - Model - INFO - Save model...
+2021-06-25 09:29:03,592 - Model - INFO - Saving at log\sem_seg\2021-06-25_09-01\checkpoints/best_model.pth
+2021-06-25 09:29:03,660 - Model - INFO - Saving model....
+2021-06-25 09:29:03,660 - Model - INFO - Best mIoU: 0.770281
+2021-06-25 09:29:03,660 - Model - INFO - **** Epoch 4 (4/18) ****
+2021-06-25 09:29:03,661 - Model - INFO - Learning rate:0.000343
+2021-06-25 09:35:04,300 - Model - INFO - Training mean loss: 0.118894
+2021-06-25 09:35:04,300 - Model - INFO - Training accuracy: 0.971544
+2021-06-25 09:35:04,300 - Model - INFO - ---- EPOCH 004 EVALUATION ----
+2021-06-25 09:37:52,138 - Model - INFO - eval mean loss: 0.252612
+2021-06-25 09:37:52,139 - Model - INFO - eval point avg class IoU: 0.795543
+2021-06-25 09:37:52,139 - Model - INFO - eval point accuracy: 0.938612
+2021-06-25 09:37:52,139 - Model - INFO - eval point avg class acc: 0.904771
+2021-06-25 09:37:52,139 - Model - INFO - ------- IoU --------
+class Arbres Feuillu weight: 0.083, IoU: 0.976 
+class Sol            weight: 0.146, IoU: 0.905 
+class Batiment       weight: 0.404, IoU: 0.947 
+class Autre          weight: 0.239, IoU: 0.606 
+class Candélabre     weight: 0.101, IoU: 0.696 
+class Voiture        weight: 0.020, IoU: 0.479 
+class Arbre Taillé   weight: 0.006, IoU: 0.960 
+
+2021-06-25 09:37:52,140 - Model - INFO - Eval mean loss: 0.252612
+2021-06-25 09:37:52,140 - Model - INFO - Eval accuracy: 0.938612
+2021-06-25 09:37:52,140 - Model - INFO - Save model...
+2021-06-25 09:37:52,140 - Model - INFO - Saving at log\sem_seg\2021-06-25_09-01\checkpoints/best_model.pth
+2021-06-25 09:37:52,205 - Model - INFO - Saving model....
+2021-06-25 09:37:52,205 - Model - INFO - Best mIoU: 0.795543
+2021-06-25 09:37:52,205 - Model - INFO - **** Epoch 5 (5/18) ****
+2021-06-25 09:37:52,205 - Model - INFO - Learning rate:0.000240
+2021-06-25 09:44:27,970 - Model - INFO - Training mean loss: 0.100524
+2021-06-25 09:44:27,971 - Model - INFO - Training accuracy: 0.975282
+2021-06-25 09:44:27,971 - Model - INFO - ---- EPOCH 005 EVALUATION ----
+2021-06-25 09:47:21,843 - Model - INFO - eval mean loss: 0.238312
+2021-06-25 09:47:21,843 - Model - INFO - eval point avg class IoU: 0.788091
+2021-06-25 09:47:21,843 - Model - INFO - eval point accuracy: 0.937269
+2021-06-25 09:47:21,843 - Model - INFO - eval point avg class acc: 0.918960
+2021-06-25 09:47:21,844 - Model - INFO - ------- IoU --------
+class Arbres Feuillu weight: 0.098, IoU: 0.978 
+class Sol            weight: 0.145, IoU: 0.909 
+class Batiment       weight: 0.421, IoU: 0.939 
+class Autre          weight: 0.214, IoU: 0.598 
+class Candélabre     weight: 0.098, IoU: 0.762 
+class Voiture        weight: 0.020, IoU: 0.371 
+class Arbre Taillé   weight: 0.005, IoU: 0.961 
+
+2021-06-25 09:47:21,844 - Model - INFO - Eval mean loss: 0.238312
+2021-06-25 09:47:21,844 - Model - INFO - Eval accuracy: 0.937269
+2021-06-25 09:47:21,844 - Model - INFO - Best mIoU: 0.795543
+2021-06-25 09:47:21,845 - Model - INFO - **** Epoch 6 (6/18) ****
+2021-06-25 09:47:21,845 - Model - INFO - Learning rate:0.000168
+2021-06-25 09:53:46,939 - Model - INFO - Training mean loss: 0.090963
+2021-06-25 09:53:46,939 - Model - INFO - Training accuracy: 0.976981
+2021-06-25 09:53:46,939 - Model - INFO - Save model...
+2021-06-25 09:53:46,940 - Model - INFO - Saving at log\sem_seg\2021-06-25_09-01\checkpoints/model.pth
+2021-06-25 09:53:47,018 - Model - INFO - Saving model....
+2021-06-25 09:53:47,019 - Model - INFO - ---- EPOCH 006 EVALUATION ----
+2021-06-25 09:56:51,248 - Model - INFO - eval mean loss: 0.218587
+2021-06-25 09:56:51,249 - Model - INFO - eval point avg class IoU: 0.778173
+2021-06-25 09:56:51,249 - Model - INFO - eval point accuracy: 0.932466
+2021-06-25 09:56:51,249 - Model - INFO - eval point avg class acc: 0.932498
+2021-06-25 09:56:51,249 - Model - INFO - ------- IoU --------
+class Arbres Feuillu weight: 0.079, IoU: 0.968 
+class Sol            weight: 0.145, IoU: 0.890 
+class Batiment       weight: 0.402, IoU: 0.961 
+class Autre          weight: 0.256, IoU: 0.565 
+class Candélabre     weight: 0.092, IoU: 0.680 
+class Voiture        weight: 0.019, IoU: 0.432 
+class Arbre Taillé   weight: 0.006, IoU: 0.952 
+
+2021-06-25 09:56:51,249 - Model - INFO - Eval mean loss: 0.218587
+2021-06-25 09:56:51,249 - Model - INFO - Eval accuracy: 0.932466
+2021-06-25 09:56:51,250 - Model - INFO - Best mIoU: 0.795543
+2021-06-25 09:56:51,250 - Model - INFO - **** Epoch 7 (7/18) ****
+2021-06-25 09:56:51,250 - Model - INFO - Learning rate:0.000118
+2021-06-25 10:03:39,910 - Model - INFO - Training mean loss: 0.090649
+2021-06-25 10:03:39,911 - Model - INFO - Training accuracy: 0.977077
+2021-06-25 10:03:39,911 - Model - INFO - ---- EPOCH 007 EVALUATION ----
+2021-06-25 10:06:26,574 - Model - INFO - eval mean loss: 0.238554
+2021-06-25 10:06:26,574 - Model - INFO - eval point avg class IoU: 0.790623
+2021-06-25 10:06:26,574 - Model - INFO - eval point accuracy: 0.936483
+2021-06-25 10:06:26,574 - Model - INFO - eval point avg class acc: 0.912541
+2021-06-25 10:06:26,575 - Model - INFO - ------- IoU --------
+class Arbres Feuillu weight: 0.084, IoU: 0.976 
+class Sol            weight: 0.135, IoU: 0.897 
+class Batiment       weight: 0.400, IoU: 0.956 
+class Autre          weight: 0.260, IoU: 0.589 
+class Candélabre     weight: 0.095, IoU: 0.632 
+class Voiture        weight: 0.020, IoU: 0.517 
+class Arbre Taillé   weight: 0.006, IoU: 0.967 
+
+2021-06-25 10:06:26,575 - Model - INFO - Eval mean loss: 0.238554
+2021-06-25 10:06:26,575 - Model - INFO - Eval accuracy: 0.936483
+2021-06-25 10:06:26,575 - Model - INFO - Best mIoU: 0.795543
+2021-06-25 10:06:26,576 - Model - INFO - **** Epoch 8 (8/18) ****
+2021-06-25 10:06:26,576 - Model - INFO - Learning rate:0.000082
+2021-06-25 10:13:05,646 - Model - INFO - Training mean loss: 0.084922
+2021-06-25 10:13:05,646 - Model - INFO - Training accuracy: 0.977562
+2021-06-25 10:13:05,646 - Model - INFO - ---- EPOCH 008 EVALUATION ----
+2021-06-25 10:16:20,569 - Model - INFO - eval mean loss: 0.243106
+2021-06-25 10:16:20,569 - Model - INFO - eval point avg class IoU: 0.784534
+2021-06-25 10:16:20,570 - Model - INFO - eval point accuracy: 0.926632
+2021-06-25 10:16:20,570 - Model - INFO - eval point avg class acc: 0.907751
+2021-06-25 10:16:20,570 - Model - INFO - ------- IoU --------
+class Arbres Feuillu weight: 0.085, IoU: 0.977 
+class Sol            weight: 0.136, IoU: 0.878 
+class Batiment       weight: 0.409, IoU: 0.945 
+class Autre          weight: 0.250, IoU: 0.561 
+class Candélabre     weight: 0.095, IoU: 0.682 
+class Voiture        weight: 0.017, IoU: 0.484 
+class Arbre Taillé   weight: 0.007, IoU: 0.965 
+
+2021-06-25 10:16:20,571 - Model - INFO - Eval mean loss: 0.243106
+2021-06-25 10:16:20,571 - Model - INFO - Eval accuracy: 0.926632
+2021-06-25 10:16:20,571 - Model - INFO - Best mIoU: 0.795543
+2021-06-25 10:16:20,571 - Model - INFO - **** Epoch 9 (9/18) ****
+2021-06-25 10:16:20,572 - Model - INFO - Learning rate:0.000058
+2021-06-25 10:23:13,539 - Model - INFO - Training mean loss: 0.081214
+2021-06-25 10:23:13,539 - Model - INFO - Training accuracy: 0.978422
+2021-06-25 10:23:13,539 - Model - INFO - ---- EPOCH 009 EVALUATION ----
+2021-06-25 10:25:57,889 - Model - INFO - eval mean loss: 0.234171
+2021-06-25 10:25:57,890 - Model - INFO - eval point avg class IoU: 0.784904
+2021-06-25 10:25:57,890 - Model - INFO - eval point accuracy: 0.935343
+2021-06-25 10:25:57,890 - Model - INFO - eval point avg class acc: 0.916104
+2021-06-25 10:25:57,890 - Model - INFO - ------- IoU --------
+class Arbres Feuillu weight: 0.093, IoU: 0.979 
+class Sol            weight: 0.129, IoU: 0.897 
+class Batiment       weight: 0.409, IoU: 0.950 
+class Autre          weight: 0.251, IoU: 0.588 
+class Candélabre     weight: 0.097, IoU: 0.570 
+class Voiture        weight: 0.016, IoU: 0.534 
+class Arbre Taillé   weight: 0.005, IoU: 0.977 
+
+2021-06-25 10:25:57,890 - Model - INFO - Eval mean loss: 0.234171
+2021-06-25 10:25:57,891 - Model - INFO - Eval accuracy: 0.935343
+2021-06-25 10:25:57,891 - Model - INFO - Best mIoU: 0.795543
+2021-06-25 10:25:57,891 - Model - INFO - **** Epoch 10 (10/18) ****
+2021-06-25 10:25:57,891 - Model - INFO - Learning rate:0.000040
+2021-06-25 10:31:59,290 - Model - INFO - Training mean loss: 0.073797
+2021-06-25 10:31:59,290 - Model - INFO - Training accuracy: 0.980828
+2021-06-25 10:31:59,291 - Model - INFO - ---- EPOCH 010 EVALUATION ----
+2021-06-25 10:34:36,864 - Model - INFO - eval mean loss: 0.231731
+2021-06-25 10:34:36,864 - Model - INFO - eval point avg class IoU: 0.784034
+2021-06-25 10:34:36,864 - Model - INFO - eval point accuracy: 0.939076
+2021-06-25 10:34:36,864 - Model - INFO - eval point avg class acc: 0.922066
+2021-06-25 10:34:36,864 - Model - INFO - ------- IoU --------
+class Arbres Feuillu weight: 0.086, IoU: 0.979 
+class Sol            weight: 0.138, IoU: 0.907 
+class Batiment       weight: 0.403, IoU: 0.948 
+class Autre          weight: 0.253, IoU: 0.607 
+class Candélabre     weight: 0.095, IoU: 0.588 
+class Voiture        weight: 0.019, IoU: 0.487 
+class Arbre Taillé   weight: 0.005, IoU: 0.973 
+
+2021-06-25 10:34:36,865 - Model - INFO - Eval mean loss: 0.231731
+2021-06-25 10:34:36,865 - Model - INFO - Eval accuracy: 0.939076
+2021-06-25 10:34:36,865 - Model - INFO - Best mIoU: 0.795543
+2021-06-25 10:34:36,866 - Model - INFO - **** Epoch 11 (11/18) ****
+2021-06-25 10:34:36,866 - Model - INFO - Learning rate:0.000028
+2021-06-25 10:41:55,705 - Model - INFO - Training mean loss: 0.075360
+2021-06-25 10:41:55,706 - Model - INFO - Training accuracy: 0.980060
+2021-06-25 10:41:55,706 - Model - INFO - Save model...
+2021-06-25 10:41:55,706 - Model - INFO - Saving at log\sem_seg\2021-06-25_09-01\checkpoints/model.pth
+2021-06-25 10:41:55,785 - Model - INFO - Saving model....
+2021-06-25 10:41:55,785 - Model - INFO - ---- EPOCH 011 EVALUATION ----
+2021-06-25 10:44:37,681 - Model - INFO - eval mean loss: 0.245850
+2021-06-25 10:44:37,681 - Model - INFO - eval point avg class IoU: 0.780387
+2021-06-25 10:44:37,682 - Model - INFO - eval point accuracy: 0.936096
+2021-06-25 10:44:37,682 - Model - INFO - eval point avg class acc: 0.921498
+2021-06-25 10:44:37,682 - Model - INFO - ------- IoU --------
+class Arbres Feuillu weight: 0.082, IoU: 0.979 
+class Sol            weight: 0.149, IoU: 0.905 
+class Batiment       weight: 0.418, IoU: 0.955 
+class Autre          weight: 0.225, IoU: 0.590 
+class Candélabre     weight: 0.101, IoU: 0.592 
+class Voiture        weight: 0.020, IoU: 0.471 
+class Arbre Taillé   weight: 0.005, IoU: 0.972 
+
+2021-06-25 10:44:37,682 - Model - INFO - Eval mean loss: 0.245850
+2021-06-25 10:44:37,682 - Model - INFO - Eval accuracy: 0.936096
+2021-06-25 10:44:37,683 - Model - INFO - Best mIoU: 0.795543
+2021-06-25 10:44:37,683 - Model - INFO - **** Epoch 12 (12/18) ****
+2021-06-25 10:44:37,683 - Model - INFO - Learning rate:0.000020
+2021-06-25 10:50:59,805 - Model - INFO - Training mean loss: 0.074975
+2021-06-25 10:50:59,805 - Model - INFO - Training accuracy: 0.980066
+2021-06-25 10:50:59,805 - Model - INFO - ---- EPOCH 012 EVALUATION ----
+2021-06-25 10:53:40,200 - Model - INFO - eval mean loss: 0.232829
+2021-06-25 10:53:40,200 - Model - INFO - eval point avg class IoU: 0.785877
+2021-06-25 10:53:40,200 - Model - INFO - eval point accuracy: 0.939344
+2021-06-25 10:53:40,200 - Model - INFO - eval point avg class acc: 0.914152
+2021-06-25 10:53:40,200 - Model - INFO - ------- IoU --------
+class Arbres Feuillu weight: 0.085, IoU: 0.980 
+class Sol            weight: 0.160, IoU: 0.908 
+class Batiment       weight: 0.406, IoU: 0.951 
+class Autre          weight: 0.232, IoU: 0.605 
+class Candélabre     weight: 0.094, IoU: 0.570 
+class Voiture        weight: 0.018, IoU: 0.511 
+class Arbre Taillé   weight: 0.006, IoU: 0.976 
+
+2021-06-25 10:53:40,200 - Model - INFO - Eval mean loss: 0.232829
+2021-06-25 10:53:40,200 - Model - INFO - Eval accuracy: 0.939344
+2021-06-25 10:53:40,200 - Model - INFO - Best mIoU: 0.795543
+2021-06-25 10:53:40,200 - Model - INFO - **** Epoch 13 (13/18) ****
+2021-06-25 10:53:40,200 - Model - INFO - Learning rate:0.000014
+2021-06-25 10:59:41,332 - Model - INFO - Training mean loss: 0.072300
+2021-06-25 10:59:41,332 - Model - INFO - Training accuracy: 0.980606
+2021-06-25 10:59:41,334 - Model - INFO - ---- EPOCH 013 EVALUATION ----
+2021-06-25 11:02:18,688 - Model - INFO - eval mean loss: 0.234832
+2021-06-25 11:02:18,689 - Model - INFO - eval point avg class IoU: 0.782209
+2021-06-25 11:02:18,689 - Model - INFO - eval point accuracy: 0.934378
+2021-06-25 11:02:18,689 - Model - INFO - eval point avg class acc: 0.919617
+2021-06-25 11:02:18,689 - Model - INFO - ------- IoU --------
+class Arbres Feuillu weight: 0.094, IoU: 0.978 
+class Sol            weight: 0.139, IoU: 0.897 
+class Batiment       weight: 0.406, IoU: 0.952 
+class Autre          weight: 0.239, IoU: 0.580 
+class Candélabre     weight: 0.098, IoU: 0.584 
+class Voiture        weight: 0.019, IoU: 0.510 
+class Arbre Taillé   weight: 0.005, IoU: 0.973 
+
+2021-06-25 11:02:18,690 - Model - INFO - Eval mean loss: 0.234832
+2021-06-25 11:02:18,690 - Model - INFO - Eval accuracy: 0.934378
+2021-06-25 11:02:18,690 - Model - INFO - Best mIoU: 0.795543
+2021-06-25 11:02:18,690 - Model - INFO - **** Epoch 14 (14/18) ****
+2021-06-25 11:02:18,690 - Model - INFO - Learning rate:0.000010
+2021-06-25 11:08:11,812 - Model - INFO - Training mean loss: 0.073439
+2021-06-25 11:08:11,813 - Model - INFO - Training accuracy: 0.980397
+2021-06-25 11:08:11,813 - Model - INFO - ---- EPOCH 014 EVALUATION ----
+2021-06-25 11:10:48,792 - Model - INFO - eval mean loss: 0.225544
+2021-06-25 11:10:48,792 - Model - INFO - eval point avg class IoU: 0.792997
+2021-06-25 11:10:48,792 - Model - INFO - eval point accuracy: 0.942132
+2021-06-25 11:10:48,793 - Model - INFO - eval point avg class acc: 0.908371
+2021-06-25 11:10:48,793 - Model - INFO - ------- IoU --------
+class Arbres Feuillu weight: 0.086, IoU: 0.978 
+class Sol            weight: 0.142, IoU: 0.905 
+class Batiment       weight: 0.391, IoU: 0.963 
+class Autre          weight: 0.269, IoU: 0.599 
+class Candélabre     weight: 0.090, IoU: 0.585 
+class Voiture        weight: 0.017, IoU: 0.550 
+class Arbre Taillé   weight: 0.005, IoU: 0.971 
+
+2021-06-25 11:10:48,793 - Model - INFO - Eval mean loss: 0.225544
+2021-06-25 11:10:48,794 - Model - INFO - Eval accuracy: 0.942132
+2021-06-25 11:10:48,794 - Model - INFO - Best mIoU: 0.795543
+2021-06-25 11:10:48,794 - Model - INFO - **** Epoch 15 (15/18) ****
+2021-06-25 11:10:48,794 - Model - INFO - Learning rate:0.000010
+2021-06-25 11:16:49,224 - Model - INFO - Training mean loss: 0.073950
+2021-06-25 11:16:49,224 - Model - INFO - Training accuracy: 0.980135
+2021-06-25 11:16:49,225 - Model - INFO - ---- EPOCH 015 EVALUATION ----
+2021-06-25 11:19:51,899 - Model - INFO - eval mean loss: 0.207159
+2021-06-25 11:19:51,900 - Model - INFO - eval point avg class IoU: 0.779082
+2021-06-25 11:19:51,900 - Model - INFO - eval point accuracy: 0.943411
+2021-06-25 11:19:51,900 - Model - INFO - eval point avg class acc: 0.920645
+2021-06-25 11:19:51,900 - Model - INFO - ------- IoU --------
+class Arbres Feuillu weight: 0.084, IoU: 0.979 
+class Sol            weight: 0.146, IoU: 0.910 
+class Batiment       weight: 0.383, IoU: 0.954 
+class Autre          weight: 0.279, IoU: 0.617 
+class Candélabre     weight: 0.090, IoU: 0.548 
+class Voiture        weight: 0.016, IoU: 0.472 
+class Arbre Taillé   weight: 0.003, IoU: 0.974 
+
+2021-06-25 11:19:51,901 - Model - INFO - Eval mean loss: 0.207159
+2021-06-25 11:19:51,901 - Model - INFO - Eval accuracy: 0.943411
+2021-06-25 11:19:51,901 - Model - INFO - Best mIoU: 0.795543
+2021-06-25 11:19:51,901 - Model - INFO - **** Epoch 16 (16/18) ****
+2021-06-25 11:19:51,901 - Model - INFO - Learning rate:0.000010
+2021-06-25 11:26:11,079 - Model - INFO - Training mean loss: 0.073297
+2021-06-25 11:26:11,080 - Model - INFO - Training accuracy: 0.980737
+2021-06-25 11:26:11,080 - Model - INFO - Save model...
+2021-06-25 11:26:11,080 - Model - INFO - Saving at log\sem_seg\2021-06-25_09-01\checkpoints/model.pth
+2021-06-25 11:26:11,155 - Model - INFO - Saving model....
+2021-06-25 11:26:11,156 - Model - INFO - ---- EPOCH 016 EVALUATION ----
+2021-06-25 11:28:56,451 - Model - INFO - eval mean loss: 0.230375
+2021-06-25 11:28:56,451 - Model - INFO - eval point avg class IoU: 0.789738
+2021-06-25 11:28:56,452 - Model - INFO - eval point accuracy: 0.942868
+2021-06-25 11:28:56,452 - Model - INFO - eval point avg class acc: 0.903943
+2021-06-25 11:28:56,452 - Model - INFO - ------- IoU --------
+class Arbres Feuillu weight: 0.071, IoU: 0.978 
+class Sol            weight: 0.142, IoU: 0.906 
+class Batiment       weight: 0.388, IoU: 0.965 
+class Autre          weight: 0.284, IoU: 0.608 
+class Candélabre     weight: 0.093, IoU: 0.587 
+class Voiture        weight: 0.017, IoU: 0.512 
+class Arbre Taillé   weight: 0.004, IoU: 0.973 
+
+2021-06-25 11:28:56,453 - Model - INFO - Eval mean loss: 0.230375
+2021-06-25 11:28:56,453 - Model - INFO - Eval accuracy: 0.942868
+2021-06-25 11:28:56,453 - Model - INFO - Best mIoU: 0.795543
+2021-06-25 11:28:56,454 - Model - INFO - **** Epoch 17 (17/18) ****
+2021-06-25 11:28:56,454 - Model - INFO - Learning rate:0.000010
+2021-06-25 11:35:10,479 - Model - INFO - Training mean loss: 0.072679
+2021-06-25 11:35:10,480 - Model - INFO - Training accuracy: 0.980341
+2021-06-25 11:35:10,480 - Model - INFO - ---- EPOCH 017 EVALUATION ----
+2021-06-25 11:37:51,434 - Model - INFO - eval mean loss: 0.240545
+2021-06-25 11:37:51,434 - Model - INFO - eval point avg class IoU: 0.784679
+2021-06-25 11:37:51,435 - Model - INFO - eval point accuracy: 0.940196
+2021-06-25 11:37:51,435 - Model - INFO - eval point avg class acc: 0.910304
+2021-06-25 11:37:51,435 - Model - INFO - ------- IoU --------
+class Arbres Feuillu weight: 0.083, IoU: 0.979 
+class Sol            weight: 0.140, IoU: 0.909 
+class Batiment       weight: 0.418, IoU: 0.959 
+class Autre          weight: 0.240, IoU: 0.598 
+class Candélabre     weight: 0.095, IoU: 0.624 
+class Voiture        weight: 0.018, IoU: 0.451 
+class Arbre Taillé   weight: 0.006, IoU: 0.973 
+
+2021-06-25 11:37:51,435 - Model - INFO - Eval mean loss: 0.240545
+2021-06-25 11:37:51,436 - Model - INFO - Eval accuracy: 0.940196
+2021-06-25 11:37:51,436 - Model - INFO - Best mIoU: 0.795543
+2021-06-25 11:37:51,436 - Model - INFO - **** Epoch 18 (18/18) ****
+2021-06-25 11:37:51,436 - Model - INFO - Learning rate:0.000010
+2021-06-25 11:44:38,383 - Model - INFO - Training mean loss: 0.070206
+2021-06-25 11:44:38,383 - Model - INFO - Training accuracy: 0.981169
+2021-06-25 11:44:38,383 - Model - INFO - ---- EPOCH 018 EVALUATION ----
+2021-06-25 11:47:23,597 - Model - INFO - eval mean loss: 0.234236
+2021-06-25 11:47:23,597 - Model - INFO - eval point avg class IoU: 0.788504
+2021-06-25 11:47:23,597 - Model - INFO - eval point accuracy: 0.939254
+2021-06-25 11:47:23,597 - Model - INFO - eval point avg class acc: 0.916358
+2021-06-25 11:47:23,597 - Model - INFO - ------- IoU --------
+class Arbres Feuillu weight: 0.085, IoU: 0.977 
+class Sol            weight: 0.136, IoU: 0.901 
+class Batiment       weight: 0.412, IoU: 0.961 
+class Autre          weight: 0.246, IoU: 0.599 
+class Candélabre     weight: 0.098, IoU: 0.651 
+class Voiture        weight: 0.019, IoU: 0.458 
+class Arbre Taillé   weight: 0.004, IoU: 0.973 
+
+2021-06-25 11:47:23,598 - Model - INFO - Eval mean loss: 0.234236
+2021-06-25 11:47:23,598 - Model - INFO - Eval accuracy: 0.939254
+2021-06-25 11:47:23,598 - Model - INFO - Best mIoU: 0.795543
